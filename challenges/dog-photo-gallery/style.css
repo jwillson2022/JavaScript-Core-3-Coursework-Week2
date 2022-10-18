@@ -1,0 +1,28 @@
+
+
+body {
+    margin: auto;
+    background-color: skyblue;
+}
+
+#main {
+
+    background-color: darkgrey;
+}
+
+li {
+text-decoration: none;
+    list-style: none;
+    max-height: 400;
+}
+
+.image-tag {
+   height: 300; 
+  max-width: 300 ; 
+  
+    }
+
+h3 {
+padding: 10px; 
+  
+    }    

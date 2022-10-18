@@ -2,7 +2,7 @@ let main =  document.getElementById("main");
 /*  button 1  */
 let button1 = document.createElement("button");
 button1.setAttribute("id" ,"btn-1")
-button1.innerText ="Button-1";
+button1.innerText ="new image";
 main.appendChild(button1);
 /*  button 2  */
 let button2 = document.createElement("button");
@@ -39,6 +39,7 @@ fetch("https://dog.ceo/api/breeds/image/random")
    statusH3.innerText = imageStatus;
    let dogImgSrc = data.message
    imageTag.setAttribute("src", dogImgSrc );
-
+   imageTag.classList.add("image-tag");
   });
   
+
